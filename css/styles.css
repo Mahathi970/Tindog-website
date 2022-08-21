@@ -1,0 +1,156 @@
+body{
+  font-family: "Montserrat";  
+}
+h1,h2,h3{
+    font-family: "Montserrat"; 
+    font-weight: bold;
+}
+h1{  
+    font-size: 3rem; 
+    color: white;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding : 3% 15% 7%;
+}
+
+/*Navigation Bar*/
+.navbar{
+    padding-bottom: 3rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/*download buttons*/
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    right: 30%;
+}
+
+/* feature*/
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.feature-para{
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*testimonial section*/
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+    color: white;
+
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%; /*makes it circle*/
+    margin: 5% auto;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:2%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 5% 15% 2%;
+}
+
+/*pricing*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*media qyery css*/
+@media (max-width : 1000px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*call to action*/
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+    color: white;
+    font-size: 500;
+}
+.cta-button{
+    margin: 7px 4px;
+}
+.cta-h3{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+/*footer*/
+#footer{
+   text-align: center;
+   margin: 7%;
+}
+.Copyright{
+    color :#8f8f8f;
+    font-size: 60;
+    text-align: center;
+}
+.footer-icon{
+    margin: 3px;
+}
